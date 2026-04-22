@@ -113,8 +113,8 @@ export const CONTRIBUTORS: PublicContributorProfile[] = [
     memberSince: "2026-02-20T00:00:00.000Z",
   },
   {
-    slug: "archi-editorial",
-    displayName: "アーキパッド編集部",
+    slug: "takumi-editorial",
+    displayName: "タクミパッド編集部",
     title: "工具レビュー・比較の公式視点",
     bio:
       "メーカー非依存で、音・トルク・ラインの見え方まで現場言葉でまとめています。収益化や分配の設計もここから広げます。",

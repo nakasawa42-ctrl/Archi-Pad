@@ -14,7 +14,7 @@ export function OperatorPreface() {
             <p className="text-[10px] font-bold uppercase tracking-[0.45em] text-orange-800/75">
               Preface
             </p>
-            <p className="text-xs font-medium text-stone-400">アーキパッド【公式】</p>
+            <p className="text-xs font-medium text-stone-400">タクミパッド【公式】</p>
           </div>
           <h2
             id="operator-preface-heading"

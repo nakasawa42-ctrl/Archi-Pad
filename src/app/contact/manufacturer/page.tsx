@@ -13,7 +13,7 @@ import type { EnterpriseInquiryMeta } from "@/lib/enterprise-inquiry-meta";
 export const metadata: Metadata = {
   title: "メーカー・製品化・導入のご相談",
   description:
-    "メーカー担当者向け：アーキパッド上の知恵の量産化・OEM・現場導入の専用窓口。運営仲介のもと、投稿者と適切に接続します。",
+    "メーカー担当者向け：タクミパッド上の知恵の量産化・OEM・現場導入の専用窓口。運営仲介のもと、投稿者と適切に接続します。",
 };
 
 type PageProps = {

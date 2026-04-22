@@ -22,18 +22,18 @@ const siteUrl = getSiteUrl();
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "アーキパッド【公式】— 建築・現場の技、伝承。",
-    template: "%s | アーキパッド【公式】",
+    default: "タクミパッド【公式】— 建築・現場の技、伝承。",
+    template: "%s | タクミパッド【公式】",
   },
   description:
     "建築・設計と現場の知恵をつなぐ。レシピ・工具・オープン掲示板。プロの道具箱のように整理された公式サイト。",
-  applicationName: "アーキパッド【公式】",
+  applicationName: "タクミパッド【公式】",
   openGraph: {
     type: "website",
     locale: "ja_JP",
     url: "/",
-    siteName: "アーキパッド【公式】",
-    title: "アーキパッド【公式】— 建築・現場の技、伝承。",
+    siteName: "タクミパッド【公式】",
+    title: "タクミパッド【公式】— 建築・現場の技、伝承。",
     description:
       "建築・設計と現場の知恵をつなぐ。オープンに共有し、業界をアップデートする。",
     images: [
@@ -41,13 +41,13 @@ export const metadata: Metadata = {
         url: DEFAULT_OG_IMAGE,
         width: 1200,
         height: 630,
-        alt: "アーキパッド【公式】— 建築・現場の手元をイメージしたビジュアル",
+        alt: "タクミパッド【公式】— 建築・現場の手元をイメージしたビジュアル",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "アーキパッド【公式】— 建築・現場の技、伝承。",
+    title: "タクミパッド【公式】— 建築・現場の技、伝承。",
     description:
       "建築・設計と現場の知恵をつなぐ公式サイト。オープン掲示板で共同開発。",
     images: [DEFAULT_OG_IMAGE],

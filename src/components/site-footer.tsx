@@ -9,7 +9,7 @@ export function SiteFooter() {
     <footer className="mt-auto border-t-2 border-stone-300/80 bg-gradient-to-b from-white to-stone-50/90 shadow-[inset_0_1px_0_rgba(255,255,255,0.9)]">
       <div className="mx-auto flex max-w-6xl flex-col gap-4 px-4 py-10 sm:flex-row sm:items-center sm:justify-between sm:px-6">
         <p className="text-sm text-stone-600">
-          <span className="font-semibold text-stone-800">アーキパッド【公式】</span>
+          <span className="font-semibold text-stone-800">タクミパッド【公式】</span>
           <br className="sm:hidden" />
           <span className="text-stone-500">
             {" "}
