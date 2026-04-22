@@ -13,7 +13,7 @@ import type { EnterpriseInquiryMeta } from "@/lib/enterprise-inquiry-meta";
 export const metadata: Metadata = {
   title: "権利買取・独占ライセンスのご相談",
   description:
-    "企業様向け：タクミパッド上の知恵・投稿の知的財産権の買取、独占・非独占ライセンスに関する専用窓口。",
+    "企業様向け：現場ノート上の知恵・投稿の知的財産権の買取、独占・非独占ライセンスに関する専用窓口。",
 };
 
 type PageProps = {

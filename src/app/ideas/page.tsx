@@ -8,7 +8,7 @@ import { CommunityIdeasBoard } from "@/components/community-ideas-board";
 export const metadata: Metadata = {
   title: "オープンソース掲示板 — 知恵・道具リクエスト",
   description:
-    "現場の知恵や『こんな道具が欲しい』をカードで一覧。いいね・改善案で共同開発。タクミパッド【公式】。",
+    "現場の知恵や『こんな道具が欲しい』をカードで一覧。いいね・改善案で共同開発。現場ノート【公式】。",
 };
 
 export default function IdeasBoardPage() {

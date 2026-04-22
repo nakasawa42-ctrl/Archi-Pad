@@ -89,7 +89,7 @@ export function PostContributionActions({
         >
           <Scale className="h-4 w-4 shrink-0 text-amber-400" aria-hidden />
           <span className="text-balance">
-            【タクミパッド｜企業向け】この知恵の権利買取・ライセンスを相談する
+            【現場ノート｜企業向け】この知恵の権利買取・ライセンスを相談する
           </span>
         </Link>
 
@@ -140,7 +140,7 @@ export function PostContributionActions({
             For enterprises · Priority
           </p>
           <p className="mt-2 text-xs leading-relaxed text-stone-400">
-            タクミパッド公式窓口 — 知的財産の買取・独占／非独占ライセンス・実施条件の相談は、まずこちらをご利用ください。
+            現場ノート公式窓口 — 知的財産の買取・独占／非独占ライセンス・実施条件の相談は、まずこちらをご利用ください。
           </p>
           <Link
             href={rightsHref}
@@ -148,7 +148,7 @@ export function PostContributionActions({
           >
             <Scale className="h-6 w-6 shrink-0 text-amber-700" aria-hidden />
             <span className="text-pretty">
-              【タクミパッド｜企業向け】このアイデア・ノウハウの権利買取・ライセンスを相談する
+              【現場ノート｜企業向け】このアイデア・ノウハウの権利買取・ライセンスを相談する
             </span>
           </Link>
           <p className="mt-3 text-center text-[11px] text-stone-500">

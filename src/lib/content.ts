@@ -363,7 +363,7 @@ export const recipes: Recipe[] = [
 export const tools: ToolSpotlight[] = [
   {
     type: "tool",
-    contributorSlug: "takumi-editorial",
+    contributorSlug: "genba-editorial",
     slug: "makita-impact-18v",
     title: "マキタ インパクト 18V — 現場で選ぶビットとトルク感",
     brand: "マキタ",
@@ -420,7 +420,7 @@ export const tools: ToolSpotlight[] = [
   },
   {
     type: "tool",
-    contributorSlug: "takumi-editorial",
+    contributorSlug: "genba-editorial",
     slug: "laser-measure-green",
     title: "グリーンレーザー墨出し器 — 屋外でも見える発光と三脚作法",
     brand: "ボッシュ / パナソニック系",

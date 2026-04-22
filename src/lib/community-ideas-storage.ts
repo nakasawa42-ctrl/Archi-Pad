@@ -1,7 +1,7 @@
 import type { CommunityIdea, IdeaCategory, ImprovementNote } from "@/lib/community-ideas-types";
 import { SEED_COMMUNITY_IDEAS } from "@/data/seed-community-ideas";
 
-export const COMMUNITY_IDEAS_STORAGE_KEY = "takumipad-community-ideas-v1";
+export const COMMUNITY_IDEAS_STORAGE_KEY = "genbanote-community-ideas-v1";
 
 function cloneSeed(): CommunityIdea[] {
   return JSON.parse(JSON.stringify(SEED_COMMUNITY_IDEAS)) as CommunityIdea[];
@@ -47,13 +47,14 @@ export function loadIdeas(): CommunityIdea[] {
   }
 }
 
-/** 旧ローカルストレージキー（diypad / 旧 archipad キー）からの移行 */
+/** 旧ローカルストレージキーからの移行 */
 export function migrateLegacyIdeasIfNeeded(): void {
   if (typeof window === "undefined") return;
   try {
     if (localStorage.getItem(COMMUNITY_IDEAS_STORAGE_KEY)) return;
 
     const legacyKeys = [
+      "takumipad-community-ideas-v1",
       "archipad-community-ideas-v1",
       "diypad-community-ideas-v2",
       "diypad-community-ideas-v1",

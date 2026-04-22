@@ -1,5 +1,5 @@
 /**
- * タクミパッドの核心理念 — トップ最上段の宣言
+ * 現場ノートの核心理念 — トップ最上段の宣言
  */
 export function MissionStatement() {
   return (
@@ -21,7 +21,7 @@ export function MissionStatement() {
           Manifesto
         </p>
         <h2 id="mission-statement-heading" className="sr-only">
-          タクミパッドの理念
+          現場ノートの理念
         </h2>
         <blockquote className="mx-auto mt-6 max-w-4xl text-center">
           <p className="font-serif text-2xl font-bold leading-[1.45] tracking-wide text-white sm:text-3xl sm:leading-[1.4] lg:text-[2.15rem] lg:leading-[1.35]">

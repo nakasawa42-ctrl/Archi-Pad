@@ -45,8 +45,8 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
       type: "article",
       locale: "ja_JP",
       url: absoluteUrl,
-      siteName: "タクミパッド【公式】",
-      title: `${recipe.title} | タクミパッド【公式】`,
+      siteName: "現場ノート【公式】",
+      title: `${recipe.title} | 現場ノート【公式】`,
       description: recipe.description,
       images: [
         {
@@ -59,7 +59,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
     },
     twitter: {
       card: "summary_large_image",
-      title: `${recipe.title} | タクミパッド【公式】`,
+      title: `${recipe.title} | 現場ノート【公式】`,
       description: recipe.description,
       images: [recipe.heroImageUrl],
     },

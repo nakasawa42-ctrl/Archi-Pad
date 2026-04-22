@@ -38,8 +38,8 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
       type: "article",
       locale: "ja_JP",
       url: absoluteUrl,
-      siteName: "タクミパッド【公式】",
-      title: `${tool.title} | タクミパッド【公式】`,
+      siteName: "現場ノート【公式】",
+      title: `${tool.title} | 現場ノート【公式】`,
       description: tool.description,
       images: [
         {
@@ -52,7 +52,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
     },
     twitter: {
       card: "summary_large_image",
-      title: `${tool.title} | タクミパッド【公式】`,
+      title: `${tool.title} | 現場ノート【公式】`,
       description: tool.description,
       images: [tool.heroImageUrl],
     },
@@ -66,7 +66,7 @@ export default async function ToolDetailPage(props: PageProps) {
 
   const pageUrl = `${getSiteUrl()}/tools/${slug}`;
   const contributorLabel = tool.contributorSlug
-    ? `タクミパッド編集部 · ${tool.brand}`
+    ? `現場ノート編集部 · ${tool.brand}`
     : tool.brand;
 
   return (

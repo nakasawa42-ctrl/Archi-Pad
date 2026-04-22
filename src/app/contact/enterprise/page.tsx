@@ -13,7 +13,7 @@ import type { EnterpriseInquiryMeta } from "@/lib/enterprise-inquiry-meta";
 export const metadata: Metadata = {
   title: "企業様・製品化のご相談",
   description:
-    "掲示板の知恵を製品化したい企業様向けの専用連絡窓口。タクミパッド【公式】運営へ。",
+    "掲示板の知恵を製品化したい企業様向けの専用連絡窓口。現場ノート【公式】運営へ。",
 };
 
 type PageProps = {

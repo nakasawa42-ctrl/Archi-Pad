@@ -14,7 +14,7 @@ export function SiteHeader() {
           </span>
           <span className="flex min-w-0 flex-col leading-tight">
             <span className="font-serif text-base font-semibold tracking-tight text-stone-900 sm:text-[1.06rem]">
-              Takumi-Pad
+              Genba-Note
             </span>
             <span className="flex flex-wrap items-center gap-x-2 gap-y-0.5 text-[10px] font-semibold uppercase tracking-[0.2em] text-stone-500">
               <span className="rounded border border-stone-300 bg-stone-100 px-1.5 py-px text-[9px] font-bold tracking-normal text-stone-700">

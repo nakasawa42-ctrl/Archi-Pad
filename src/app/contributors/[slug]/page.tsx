@@ -30,8 +30,8 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
     openGraph: {
       type: "profile",
       url: `${siteUrl}${path}`,
-      siteName: "タクミパッド【公式】",
-      title: `${c.displayName} — タクミパッド貢献者`,
+      siteName: "現場ノート【公式】",
+      title: `${c.displayName} — 現場ノート貢献者`,
       description: c.title,
     },
   };
