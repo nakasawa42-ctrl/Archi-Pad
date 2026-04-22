@@ -25,7 +25,7 @@ export function OfficialXStrip() {
               id="official-x-strip-heading"
               className="font-serif text-xl font-semibold tracking-tight text-stone-900 sm:text-2xl"
             >
-              現場ノート<span className="text-orange-600">【公式】</span>
+              アーキテクトパッド<span className="text-orange-600">【公式】</span>
             </h2>
             <p className="mt-2 text-sm leading-relaxed text-stone-600 sm:max-w-xl">
               現場の閃き・続報・突発ネタは公式X。フォローで「道具箱」の中身を先に覗けます。
@@ -45,7 +45,7 @@ export function OfficialXStrip() {
             <ExternalLink className="h-4 w-4 opacity-80" aria-hidden />
           </a>
           <p className="text-center text-[11px] text-stone-500">
-            現場ノート【公式】運営
+            @architect_pad_jp ／ #アーキテクトパッド
           </p>
         </div>
       </div>

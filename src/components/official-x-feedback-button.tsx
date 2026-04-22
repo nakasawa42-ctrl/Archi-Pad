@@ -15,11 +15,11 @@ export function OfficialXFeedbackButton({
 }: OfficialXFeedbackButtonProps) {
   const handle = getOfficialXHandle();
   const lines: string[] = [
-    "【現場ノート｜公式】",
+    "【アーキテクトパッド｜公式】",
     `「${articleTitle}」——感想を一言。`,
   ];
   if (handle) lines.push(`@${handle}`);
-  lines.push("", "#現場ノート");
+  lines.push("", "#アーキテクトパッド");
   const text = lines.join("\n");
 
   const href = `https://twitter.com/intent/tweet?text=${encodeURIComponent(
@@ -51,7 +51,7 @@ export function OfficialXFeedbackButton({
         </span>
       </a>
       <p className="mx-auto mt-3 max-w-md text-center text-xs leading-relaxed text-stone-500">
-        タグ <span className="font-semibold text-stone-700">#現場ノート</span>{" "}
+        タグ <span className="font-semibold text-stone-700">#アーキテクトパッド</span>{" "}
         で検索。ネタ・突っ込み・師匠自慢、どうぞ。
       </p>
     </div>
