@@ -1,5 +1,9 @@
 import { Hammer, MessageSquareText } from "lucide-react";
-import { getOfficialXHandle } from "@/lib/social";
+import {
+  getOfficialXHandle,
+  OFFICIAL_X_DISPLAY_NAME,
+  OFFICIAL_X_HASHTAG,
+} from "@/lib/social";
 
 type OfficialXFeedbackButtonProps = {
   articleTitle: string;
@@ -15,11 +19,12 @@ export function OfficialXFeedbackButton({
 }: OfficialXFeedbackButtonProps) {
   const handle = getOfficialXHandle();
   const lines: string[] = [
-    "【アーキテクトパッド｜公式】",
+    OFFICIAL_X_DISPLAY_NAME,
     `「${articleTitle}」——感想を一言。`,
+    `@${handle}`,
+    "",
+    `#${OFFICIAL_X_HASHTAG}`,
   ];
-  if (handle) lines.push(`@${handle}`);
-  lines.push("", "#アーキテクトパッド");
   const text = lines.join("\n");
 
   const href = `https://twitter.com/intent/tweet?text=${encodeURIComponent(
@@ -51,7 +56,8 @@ export function OfficialXFeedbackButton({
         </span>
       </a>
       <p className="mx-auto mt-3 max-w-md text-center text-xs leading-relaxed text-stone-500">
-        タグ <span className="font-semibold text-stone-700">#アーキテクトパッド</span>{" "}
+        タグ{" "}
+        <span className="font-semibold text-stone-700">#{OFFICIAL_X_HASHTAG}</span>{" "}
         で検索。ネタ・突っ込み・師匠自慢、どうぞ。
       </p>
     </div>

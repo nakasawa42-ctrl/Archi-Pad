@@ -1,11 +1,17 @@
 import { ExternalLink, Wrench } from "lucide-react";
-import { getOfficialXProfileUrl } from "@/lib/social";
+import {
+  getOfficialXHandle,
+  getOfficialXProfileUrl,
+  OFFICIAL_X_DISPLAY_NAME,
+  OFFICIAL_X_HASHTAG,
+} from "@/lib/social";
 
 /**
  * トップの目立つゾーン：公式アカウントへの導線（道具箱パネル風）
  */
 export function OfficialXStrip() {
   const xUrl = getOfficialXProfileUrl();
+  const handle = getOfficialXHandle();
 
   return (
     <section
@@ -24,8 +30,10 @@ export function OfficialXStrip() {
             <h2
               id="official-x-strip-heading"
               className="font-serif text-xl font-semibold tracking-tight text-stone-900 sm:text-2xl"
+              aria-label={OFFICIAL_X_DISPLAY_NAME}
             >
-              アーキテクトパッド<span className="text-orange-600">【公式】</span>
+              アーキテクトパッド
+              <span className="text-orange-600">【公式】</span>
             </h2>
             <p className="mt-2 text-sm leading-relaxed text-stone-600 sm:max-w-xl">
               現場の閃き・続報・突発ネタは公式X。フォローで「道具箱」の中身を先に覗けます。
@@ -45,7 +53,7 @@ export function OfficialXStrip() {
             <ExternalLink className="h-4 w-4 opacity-80" aria-hidden />
           </a>
           <p className="text-center text-[11px] text-stone-500">
-            @architect_pad_jp ／ #アーキテクトパッド
+            @{handle} ／ #{OFFICIAL_X_HASHTAG}
           </p>
         </div>
       </div>
